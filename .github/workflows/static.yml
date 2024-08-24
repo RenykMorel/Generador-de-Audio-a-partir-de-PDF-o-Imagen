@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Consultoría en IA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .project, .gradio-demo {
+            margin-bottom: 20px;
+        }
+        .project img, .gradio-demo img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portafolio de Consultoría en IA</h1>
+        </div>
+    </header>
+    <div class="container main-content">
+        <section>
+            <h2>Sobre Mí</h2>
+            <p>Hola, soy [Tu Nombre], un desarrollador especializado en redes neuronales e inteligencia artificial. Ofrezco servicios de consultoría para ayudar a empresas a implementar soluciones avanzadas de IA que resuelvan problemas específicos y mejoren su eficiencia.</p>
+        </section>
+
+        <section>
+            <h2>Proyectos Destacados</h2>
+            <div class="project">
+                <h3>Generador de Audio a partir de PDF o Imagen</h3>
+                <p>Este proyecto convierte archivos PDF e imágenes en audio en español. Utiliza OCR para extraer el texto, detecta el idioma, traduce el texto al español si es necesario, y convierte el texto traducido en audio.</p>
+                <p><strong>Tecnologías Utilizadas:</strong></p>
+                <ul>
+                    <li>Gradio: Interfaz de usuario interactiva.</li>
+                    <li>PyMuPDF (fitz): Manipulación de archivos PDF.</li>
+                    <li>pytesseract: OCR para imágenes.</li>
+                    <li>deep_translator: Traducción automática.</li>
+                    <li>gTTS: Generación de audio a partir de texto.</li>
+                </ul>
+                <p><strong>Características:</strong></p>
+                <ul>
+                    <li>Extrae texto de documentos en varios idiomas.</li>
+                    <li>Traduce el texto al español.</li>
+                    <li>Convierte el texto traducido en audio.</li>
+                </ul>
+                <p><strong>Imagen del Programa en Acción:</strong></p>
+                <img src="enlace_a_tu_imagen" alt="Captura del programa en Gradio">
+                <p><strong>Pruebas y Resultados:</strong></p>
+                <ul>
+                    <li>Ejemplos de documentos procesados.</li>
+                    <li>Audio generado en español a partir de texto en japonés y ruso.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Demostración de Gradio</h2>
+            <p>A continuación, puedes ver una demostración interactiva de la interfaz de Gradio para el generador de audio. Esto te permitirá experimentar directamente cómo funciona el sistema.</p>
+            <div class="gradio-demo">
+                <h3>Demostración</h3>
+                <p><strong>Imagen de la Interfaz de Gradio:</strong></p>
+                <img src="enlace_a_imagen_gradio" alt="Interfaz de Gradio">
+                <p>Prueba la aplicación aquí: <a href="enlace_a_tu_gradio" target="_blank">Ver Demo</a></p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Servicios de Consultoría</h2>
+            <p>Ofrezco servicios de consultoría en desarrollo de inteligencia artificial para ayudar a empresas a implementar y optimizar soluciones de IA. Mis servicios incluyen:</p>
+            <ul>
+                <li>Desarrollo de modelos personalizados de IA.</li>
+                <li>Implementación de soluciones de procesamiento de lenguaje natural.</li>
+                <li>Análisis de datos y generación de insights.</li>
+                <li>Optimización de modelos existentes y mejora del rendimiento.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <p>Si estás interesado en mis servicios de consultoría o tienes alguna pregunta, no dudes en <a href="mailto:tu_email@example.com">enviarme un correo electrónico</a> para solicitar una consulta.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
